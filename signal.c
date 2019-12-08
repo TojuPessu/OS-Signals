@@ -8,6 +8,7 @@
 void handler(int signum)
 { //signal handler
   printf("Hello World!\n");
+  printf("Turing was completed!\n");
   alarm(1); //exit after printing
 }
 
